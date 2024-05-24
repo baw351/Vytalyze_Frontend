@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JO POST</title>
+    <link rel="stylesheet" href="publication.css">
+</head>
+<body>
+    <div class="container">
+        <div class="publish-post">
+            <h2>Publier un post</h2>
+            <div class="preview"></div>
+            <input type="file" accept="image/*, video/*" id="file-upload">
+            <label for="file-upload" class="file-upload-label">Choisir un fichier...</label>
+            <input type="text" id="user-name" placeholder="Votre nom">
+            <textarea id="post-text" placeholder="Ajouter un texte..."></textarea>
+            <button id="publish-button">Publier</button>
+        </div>
+        <div class="post" data-id="1">
+            <div class="post-header">
+                <img src="./template/image_template/origine-logo-JO-Paris-2024.jpg" alt="User avatar" class="avatar" width="50" height= "50">
+                <span class="username">Fan_JO</span>
+            </div>
+            <div class="post-image">
+                <img src="./template/image_template/3650996-74329048-2560-1440.jpg">
+            </div>
+            <div class="post-actions">
+                <button class="like-button">❤️ Like</button>
+                <button class="comment-button">💬 Commentaires</button>
+            </div>
+            <div class="post-likes">123 likes</div>
+            <div class="post-caption">
+                <span class="username">Fan_JO</span> Trop hate
+            </div>
+            <div class="post-comments">
+                <div class="comment"><span class="username">user1</span> Pareil ! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+                <div class="comment"><span class="username">user2</span> Encore 2 mois ! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+            </div>
+            <div class="add-comment">
+                <input type="text" placeholder="Ajouter un commentaire...">
+                <button class="add-comment-button">Commenter</button>
+            </div>
+        </div>
+
+        <div class="post" data-id="2">
+            <div class="post-header">
+                <img src="./template/image_template/17162878-21691469.jpg" alt="User avatar" class="avatar" width="50" height= "50">
+                <span class="username">JO2024</span>
+            </div>
+            <div class="post-image carousel">
+                <div class="carousel-images">
+                    <img src="./template/image_template/64be2e37b6def399cb0152b8.jpeg" alt="Post image 1">
+                    <img src="./template/image_template/3650996-74329048-2560-1440.jpg" alt="Post image 2">
+                    <img src="./template/image_template/17162878-21691469.jpg" alt="Post image 3">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+            <div class="post-actions">
+                <button class="like-button">❤️ Like</button>
+                <button class="comment-button">💬 Commentaires</button>
+            </div>
+            <div class="post-likes">456 likes</div>
+            <div class="post-caption">
+                <span class="username">JO2024</span> Pret pour les JO Paris 2024 ?
+            </div>
+            <div class="post-comments">
+                <div class="comment"><span class="username">user3</span> Trop hate! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+                <div class="comment"><span class="username">user4</span> J'attends que ça ! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+            </div>
+            <div class="add-comment">
+                <input type="text" placeholder="Ajouter un commentaire...">
+                <button class="add-comment-button">Commenter</button>
+            </div>
+        </div>
+        <div class="post" data-id="3">
+            <div class="post-header">
+                <img src="./template/image_template/origine-logo-JO-Paris-2024.jpg" alt="User avatar" class="avatar" width="50" height= "50">
+                <span class="username">Fan_JO</span>
+            </div>
+            <div class="post-image">
+                <img src="./template/image_template/3650996-74329048-2560-1440.jpg">
+            </div>
+            <div class="post-actions">
+                <button class="like-button">❤️ Like</button>
+                <button class="comment-button">💬 Commentaires</button>
+            </div>
+            <div class="post-likes">123 likes</div>
+            <div class="post-caption">
+                <span class="username">Fan_JO</span> Trop hate
+            </div>
+            <div class="post-comments">
+                <div class="comment"><span class="username">user1</span> Pareil ! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+                <div class="comment"><span class="username">user2</span> Encore 2 mois ! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+            </div>
+            <div class="add-comment">
+                <input type="text" placeholder="Ajouter un commentaire...">
+                <button class="add-comment-button">Commenter</button>
+            </div>
+        </div>
+        <div class="post" data-id="4">
+            <div class="post-header">
+                <img src="./template/image_template/17162878-21691469.jpg" alt="User avatar" class="avatar" width="50" height= "50">
+                <span class="username">JO2024</span>
+            </div>
+            <div class="post-image carousel">
+                <div class="carousel-images">
+                    <img src="./template/image_template/64be2e37b6def399cb0152b8.jpeg" alt="Post image 1">
+                    <img src="./template/image_template/3650996-74329048-2560-1440.jpg" alt="Post image 2">
+                    <img src="./template/image_template/17162878-21691469.jpg" alt="Post image 3">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+            <div class="post-actions">
+                <button class="like-button">❤️ Like</button>
+                <button class="comment-button">💬 Commentaires</button>
+            </div>
+            <div class="post-likes">456 likes</div>
+            <div class="post-caption">
+                <span class="username">JO2024</span> Pret pour les JO Paris 2024 ?
+            </div>
+            <div class="post-comments">
+                <div class="comment"><span class="username">user3</span> Trop hate! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+                <div class="comment"><span class="username">user4</span> J'attends que ça ! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+            </div>
+            <div class="add-comment">
+                <input type="text" placeholder="Ajouter un commentaire...">
+                <button class="add-comment-button">Commenter</button>
+            </div>
+        </div>
+        <div class="post" data-id="5">
+            <div class="post-header">
+                <img src="./template/image_template/origine-logo-JO-Paris-2024.jpg" alt="User avatar" class="avatar" width="50" height= "50">
+                <span class="username">Fan_JO</span>
+            </div>
+            <div class="post-image">
+                <img src="./template/image_template/3650996-74329048-2560-1440.jpg">
+            </div>
+            <div class="post-actions">
+                <button class="like-button">❤️ Like</button>
+                <button class="comment-button">💬 Commentaires</button>
+            </div>
+            <div class="post-likes">123 likes</div>
+            <div class="post-caption">
+                <span class="username">Fan_JO</span> Trop hate
+            </div>
+            <div class="post-comments">
+                <div class="comment"><span class="username">user1</span> Pareil ! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+                <div class="comment"><span class="username">user2</span> Encore 2 mois ! <button class="like-button">❤️ </button> <span class="comment-likes">0 likes</span></div>
+            </div>
+            <div class="add-comment">
+                <input type="text" placeholder="Ajouter un commentaire...">
+                <button class="add-comment-button">Commenter</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
